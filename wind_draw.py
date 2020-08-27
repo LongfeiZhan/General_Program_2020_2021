@@ -105,7 +105,6 @@ def get_wdws(data):
     
 
 # 风玫瑰图
-
 wd_mul,ws_mul = get_wdws(jinxian_sm)
 ax = WindroseAxes.from_ax()
 ax.bar(wd_mul, ws_mul, normed=True,bins=np.arange(0,8,2), opening=0.8, edgecolor='w')
